@@ -9,7 +9,7 @@
 
     Explication ex02 : Password generator ->
 #### ask the user the number of characters he wants for his password
-####with a library of all characters, print random characters with import random!
+#### with a library of all characters, print random characters with import random!
 
     Explication ex03 : Pin code ->
 #### Try all MD5 passwords with 8 digits (with hashlib.md5) and see if the MD5 password matches the original md5 code.
