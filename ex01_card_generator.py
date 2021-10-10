@@ -18,10 +18,10 @@ def GenerateCard(First_Number):
 
 
 
-UserChoice = input("For create a new credit card, you need to choose between Mastercard and Visa")
+UserChoice = input("To create a new credit card, you must choose between Mastercard and Visa.")
 UserChoice = UserChoice.upper()
 while UserChoice != "VISA" and UserChoice != "MASTERCARD":
-    UserChoice = input(f"You need to put visa or mastercard for create a new credit card")
+    UserChoice = input("You must write visa or mastercard to create a new credit card.")
     UserChoice = UserChoice.upper()
 if UserChoice == "VISA":
     First_Number = 4
@@ -29,3 +29,4 @@ elif UserChoice == "MASTERCARD":
     First_Number = 5
 
 GenerateCard(First_Number)
+#Correction fix
